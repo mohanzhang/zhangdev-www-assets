@@ -9,7 +9,7 @@ document.onkeydown = function(e) {
       selector = ".nav-up .chevron";
       break;
     case 39:
-			selector = ".nav-right .chevron";
+      selector = ".nav-right .chevron";
       break;
     case 40:
       selector = ".nav-down .chevron";
@@ -18,7 +18,7 @@ document.onkeydown = function(e) {
 
   var target = document.querySelector(selector);
   if (target) {
-  	window.location = target.getAttribute("href");
+    window.location = target.getAttribute("href");
   } else {
     return;
   }
