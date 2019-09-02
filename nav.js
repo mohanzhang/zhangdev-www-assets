@@ -12,7 +12,7 @@ document.onkeydown = function(e) {
       selector = ".nav-right .chevron";
       break;
     case 40:
-      selector = ".nav-down .chevron";
+      selector = ".nav-bottom .chevron";
       break;
   }
 
