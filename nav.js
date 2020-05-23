@@ -23,3 +23,8 @@ document.onkeydown = function(e) {
     return;
   }
 };
+
+// Provide larger tap/click surface area on navigation chevrons
+document.querySelector(".nav-right").onclick = function() {
+  window.location = document.querySelector(".nav-right a").getAttribute("href");
+}
